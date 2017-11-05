@@ -6,3 +6,6 @@ http://www3.septa.org/hackathon/
 
 station names and numbers:
 http://www3.septa.org/hackathon/Arrivals/station_id_name.csv
+
+Still has problems when "null" responses change.
+Results in printing the wrong line occasionally
