@@ -39,7 +39,6 @@ class Septa(object):
         s = sort.strip('[]')
         trains = s.split('{')
         fullschedule = (trains[traintime])
-        print(a)
         return(fullschedule.split('"')[1::2]) # the [1::2] is a slicing which extracts odd values
 
 
